@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+*_test.exe
+
+# Local development files
+.DS_Store
+.env
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency management
+# These are typically managed by 'go mod' and shouldn't be committed
+vendor/
+
+# Go module cache (usually in GOPATH/pkg/mod)
+# This is usually managed by Go itself
+go.sum # Only if you want to ignore changes to checksums for local development, otherwise it should be committed
+go.work.sum # Same for Go workspaces
+
+# Build output
+# These are typically created when you run `go build`
+/bin/
+/pkg/
+
+# Generated files
+# For example, protobuf generated files if they are not meant to be committed
+# *.pb.go
+
+# Log files
+*.log
+
+# Editor specific files
+*~
+.#*
+*.bak
+*.swp
+.history/
